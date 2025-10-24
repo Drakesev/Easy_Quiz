@@ -160,3 +160,5 @@ const askQuestion = () => {
 }
 
 askQuestion();
+
+module.exports = askQuestion;
