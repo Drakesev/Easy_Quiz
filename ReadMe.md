@@ -76,37 +76,10 @@ Per eseguire l'esempio:
 node example.js
 ```
 
-**Nota:** Il file `index.js` che hai fornito sembra contenere sia la logica del quiz che un array di domande di esempio. Per l'uso come libreria, il file `index.js` dovrebbe *esportare* la funzione principale del quiz e non eseguirla direttamente. Assicurati che il tuo `index.js` sia strutturato in modo simile a questo per funzionare come libreria:
-
-```javascript
-// index.js (Versione per libreria)
-const readline = require('readline');
-
-// ... (logica per mescolare e gestire il quiz) ...
-
-function Quiz(questions) {
-  // ... (implementazione del quiz) ...
-}
-
-module.exports = Quiz;
-```
-
-Se il tuo `index.js` è solo un esempio di utilizzo, considera di rinominarlo.
-
-## 🛠️ Caratteristiche
-
-*   **Semplice e Leggero:** Nessuna dipendenza esterna.
-*   **Interfaccia a Console:** Perfetto per script Node.js o strumenti da riga di comando.
-*   **Domande Casuali:** Le domande vengono mescolate ad ogni esecuzione.
-*   **Punteggio Finale:** Visualizza il numero di risposte corrette alla fine.
-
-## 📄 Licenza
-
-Questo progetto è rilasciato sotto licenza **MIT**. Vedi il file [LICENSE](LICENSE) per i dettagli.
 
 ## 🤝 Contributi
 
 I contributi sono sempre benvenuti! Se hai suggerimenti, segnalazioni di bug o vuoi aggiungere nuove funzionalità, sentiti libero di aprire una **Issue** o inviare una **Pull Request** sul [repository GitHub](https://github.com/Drakesev/easy_quiz).
 
 ---
-*Creato con passione da Drakesev*
+Progetto sviluppato come esercizio di programmazione JavaScript.

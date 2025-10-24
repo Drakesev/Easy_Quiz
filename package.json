@@ -1,6 +1,6 @@
 {
   "name": "easy_quiz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "\"description\": \"A mini Node.js library to create True/False quizzes directly in the console. Easy to use, no dependencies, with random questions and final score display.\"",
   "repository": {
     "type": "git",
