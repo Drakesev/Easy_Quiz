@@ -1,0 +1,16 @@
+{
+  "name": "easy_quiz",
+  "version": "1.0.1",
+  "description": "\"description\": \"A mini Node.js library to create True/False quizzes directly in the console. Easy to use, no dependencies, with random questions and final score display.\"",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Drakesev?tab=repositories"
+  },
+  "license": "MIT",
+  "author": "Drakesev",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
